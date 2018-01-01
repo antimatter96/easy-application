@@ -1,0 +1,29 @@
+#main{
+	width:75%;
+	padding:10px 10px;
+	margin:auto;
+	font-family:"consolas",'sans-serif';
+}
+
+.optgroup-country-even option{
+	background-color:#eee;
+}
+.optgroup-country-odd option{
+	background-color:#fef;
+}
+
+.optgroup-state option{
+	background:#ccc;
+}
+
+.multiple{
+	padding:2px;
+	margin:2px 2px;
+}
+
+ul>li.group:nth-of-type(odd){
+	background:blue;
+}
+ul>li.group:nth-of-type(even){
+	background:green;
+}
